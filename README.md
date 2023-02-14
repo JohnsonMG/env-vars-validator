@@ -21,5 +21,3 @@ if (!mandateEnvVariables(env, ['MANDATORY_VARIABLE'] as const)) {
 suggestEnvVariables(env, ['OPTIONAL_FEATURE_FLAG_MISSING']);
 // Won't quit the process, but will log to the console warning of the missing variables
 ```
-
-![mandateEnvVariables example screenshot](./mandatory-example-screenshot.png)
